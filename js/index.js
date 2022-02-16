@@ -13,3 +13,8 @@ let isMarried = false;
 console.log(petName, myAge, isMarried);
 petName = 'Dogesh';
 console.log(petName);
+/* function add(number1: number, number2: number){
+    const result = number1 + number2 ;
+    return result ;
+}
+ */
