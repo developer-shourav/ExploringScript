@@ -10,3 +10,28 @@ console.log(myPhoneNumber, myHome,"MY Watch Price:", watchPrice);
 console.log("Total price of Shopping",totalPrice);
 
 
+let petName: string = "Minu the little Arko";
+let myAge: number = 21 ;
+let isMarried: boolean = false ;
+
+console.log(petName, myAge, isMarried);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+petName = 'Dogesh' ;
+console.log(petName);
