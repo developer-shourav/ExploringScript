@@ -32,3 +32,47 @@ const substract= ( number1: number, number2: number): number => {
 
 substract(20 , 10)
 console.log(substract);
+
+
+const arr = ['Sap', 'kola', 'tal', 'tomal', 'kulu'] ;
+const auu = [451, 554657, 4667] ;
+
+
+type Student = {
+    name: string,
+    age: number,
+    passed: boolean,
+    home: string,
+    phone: number 
+
+}
+
+
+const pupil: Student = {
+    name:"Shourav",
+    age: 12,
+    passed: true ,
+    home: "Nawabgonj",
+    phone:561422 
+
+}
+
+
+
+interface Iperson {
+    name: string ,
+    hobby: string,
+    fathersName: string,
+    bangladeshi: boolean,
+    promoCode?: number,
+    age?:number
+}
+
+
+const tudent: Iperson ={
+    name:"tuli",
+    hobby:"Bilai khela",
+    fathersName:"Jane Mairafalam",
+    bangladeshi: true,
+    
+}
