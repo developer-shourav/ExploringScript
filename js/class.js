@@ -40,4 +40,21 @@ const tudent = {
     hobby: "Bilai khela",
     fathersName: "Jane Mairafalam",
     bangladeshi: true,
+    promoCode: 35454
 };
+//Enums
+/*
+Deleted
+----------------
+const PI = 3.1416 ;
+const admin = "tamim" ;
+ */
+/* Similar data tyep const jodi akta const er under a ana hoy tokhon seta Enums..Aktu subidha  */
+// Example of Enums
+var Colors;
+(function (Colors) {
+    Colors["color1"] = "#ededed";
+    Colors["color2"] = "#ededff";
+    Colors["color3"] = "#ededee";
+})(Colors || (Colors = {}));
+console.log(Colors.color1);

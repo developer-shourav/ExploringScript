@@ -74,5 +74,36 @@ const tudent: Iperson ={
     hobby:"Bilai khela",
     fathersName:"Jane Mairafalam",
     bangladeshi: true,
+    promoCode:35454
     
 }
+
+
+
+//Enums
+
+
+/*
+Deleted
+----------------
+const PI = 3.1416 ;
+const admin = "tamim" ;
+ */
+
+
+
+
+
+/* Similar data tyep const jodi akta const er under a ana hoy tokhon seta Enums..Aktu subidha  */
+ 
+
+
+// Example of Enums
+
+ enum Colors {
+    color1 = "#ededed",
+    color2 = "#ededff",
+    color3 = "#ededee"
+}
+
+console.log(Colors.color1);
