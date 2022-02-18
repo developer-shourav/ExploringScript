@@ -106,4 +106,17 @@ const admin = "tamim" ;
     color3 = "#ededee"
 }
 
+
+enum EducationInstitude {
+    praimary = "Jalalpur Udoyon Model Govet Primay School.",
+    secondary = "Nawabgonj Pilot Hight School And College.",
+    higherSecondary = "Dohar Nawabgonj College",
+    higher = "National University Banglades"
+}
+
+
+
+const myFirstIns = EducationInstitude.praimary;
+console.log(myFirstIns);
+
 console.log(Colors.color1);
