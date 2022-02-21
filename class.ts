@@ -120,3 +120,30 @@ const myFirstIns = EducationInstitude.praimary;
 console.log(myFirstIns);
 
 console.log(Colors.color1);
+
+
+
+
+// Generic 
+/* function _concat<T>(a: T, b: T): T {
+    return a + b ;
+}
+
+_concat<number>(1,3);
+_concat<string>("Shourav", "Raj"); 
+ */
+
+
+// Array generic
+
+const myArray: Array <number | string> = [5324, 435564, 'tumar baper nam']  ;
+
+
+
+/* 
+
+
+
+
+
+*/
